@@ -53,3 +53,6 @@ Using this merge method all the commits of the branch are added to the base bran
 
 4) Terminal merge: 
 Using this method helps in merging commits using our terminal first we have to make sure the head of the branch which is getting meged is updated to avoid any conflicts then we can use have to go to that branc and use git merge --no--ff <branch name> to add a merge commit or git merge <branch name> to merge without a conflict
+
+Ques - What is a GitHub gpg key? Why it is used? Also, tell that why we need to sign the commits?
+Ans - Github gpg key is =a from a gpg key pair. Is is used in the signature verfication of the user. These tags or commits are marked as verified on GitHub so other people can be confident that the changes come from a trusted source. Using gpg key pair we can get this badge by typing .(When we commit with a gpg private key and push it to the remote repo then Github verfies it with our public private key).
